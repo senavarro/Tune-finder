@@ -26,7 +26,7 @@ UI.formularioBuscar.addEventListener('submit', (e) =>{
                     UI.divResultado.textContent = letra;
                 }else{
                     //La cancion no existe
-                    UI.divMensajes.innerHTML = "La canción no existe. Prueba con otra búsqueda";
+                    UI.divMensajes.innerHTML = "Couldn't find the song. Please try first letter in capitals or look for typos.";
                     UI.divMensajes.classList.add('error');
                     setTimeout(() => {
                         UI.divMensajes.innerHTML = "";

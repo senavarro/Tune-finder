@@ -32,7 +32,7 @@ UI.formularioBuscar.addEventListener('submit', (e) =>{
                         UI.divMensajes.innerHTML = "";
                         UI.divMensajes.classList.remove('error'); 
                         UI.formularioBuscar.reset();
-                    }, 3000);
+                    }, 4000);
                 }
             })
     }
